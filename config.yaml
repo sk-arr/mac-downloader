@@ -1,0 +1,13 @@
+# Mac 资源自动下载器配置
+
+# 目标网站列表页地址 (你可以换成其他类似的博客站)
+target_url: "https://mac78.com"
+
+# 下载文件保存路径 (相对路径，会在当前文件夹下创建 downloads 目录)
+save_path: "./downloads"
+
+# 结果报表保存路径
+csv_output: "./result.csv"
+
+# 每次运行最多处理多少个软件 (防止被封 IP，建议先设小一点测试)
+max_software: 5
